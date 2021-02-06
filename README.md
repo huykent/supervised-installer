@@ -33,7 +33,12 @@ you can set these parameters by appending ` --<parameter> <value>` like:
 curl -Lo installer.sh https://raw.githubusercontent.com/home-assistant/supervised-installer/master/installer.sh
 bash installer.sh --machine raspberrypi3-64
 ```
-
+## Command
+```bash
+systemctl start hassio-supervisor.service
+systemctl stop hassio-supervisor.service
+systemctl restart hassio-supervisor.service
+```
 ## Supported Machine types
 
 - intel-nuc
